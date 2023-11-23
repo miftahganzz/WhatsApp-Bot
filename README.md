@@ -16,12 +16,12 @@
 ## Instalasi
 ### Instal/clone proyek
 ```bash
-git clone https://github.com/danitechid/wa-bot-md-pairing-code.git
+git clone https://github.com/miftahganzz/WhatsApp-Bot.git
 ```
 
 ### Pimdah Direktori (CD)
 ```bash
-cd wa-bot-md-pairing-code
+cd wa-bot
 ```
 
 ### MongoDb
@@ -36,7 +36,7 @@ mongodb_uri: 'Your_MongoDb_URI', // Register here: https://mongodb.com/#sign-up
 ### Application Programming Interface (API)
 #### Dapatkan Kunci API
 Daftar dan dapatkan kunci API:
-1. <a href="https://api.danitechno.com">https://api.danitechno.com</a>
+1. <a href="https://api-miftah.xyz">https://api-miftah.xyz</a>
 2. <a href="https://api.caliph.biz.id">https://api.caliph.biz.id</a>
 
 #### Edit ./config/mainConfig.js > api
@@ -44,7 +44,7 @@ Daftar dan dapatkan kunci API:
 api: {
   dani: {
     ...
-    api_key: 'Your_API_key' // Register here: https://daniapi.my.id/#sign-up
+    api_key: 'Your_API_key' // Register here: https://api-miftah.xyz/#sign-up
   },
   caliph: {
     ...
@@ -84,23 +84,9 @@ node run start
 bun run start
 ```
 
-## Information
-* Information
-* Creator / Developer: Dani Ramdani (Dani Techno.) - FullStack Engineer
-* Contact creator / Developer: 0895 1254 5999 (WhatsApp), contact@danitechno.com (Email)
-
 ## Thanks to
-* Dani Techno. - FullStack Engineer (Creator / Developer)
-* daniapi.my.id / api.danitechno.com (API provider)
+* Dani Techno. - FullStack Engineer (Creator)
+* Miftah GanzZ - (Constributor)
+* api.miftah.biz.id / api-miftah.xyz (API provider)
 * api.caliph.biz.id (API provider)
-* @danitech/scraper (Scraper provider)
-* @whiskeysockets/baileys (Library "Baileys" provider)
-* @adiwajshing/keyed-db
-* @hapi/boom
-* pino
-* qrcode-terminal
-* chalk
-* mongoose
-* node-cron
-* nodemon
-* other
+* Module Provider
